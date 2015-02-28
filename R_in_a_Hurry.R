@@ -160,7 +160,7 @@ mtcars[high_mpg_cars,] # prints rows for high mpg cars
 
 mtcars[index, ]        # same as above
 
-## Slide 48: Returning to STAR data
+## Slide 49: Returning to STAR data
 ## ----------------------------------------------------------------------
 
 setwd("C:/Users/dbarken/Dropbox/home/r.workshop/star/star.final")
@@ -169,7 +169,7 @@ dat = read.csv('star_clean.csv')
 
 View(dat)
 
-# Slide 49: Reshaping the data with tapply
+# Slide 50: Reshaping the data with tapply
 ## ----------------------------------------------------------------------
 ## - tapply() takes three arguments: 
 ##     1.  a vector with data to be summed (or averaged, etc)
